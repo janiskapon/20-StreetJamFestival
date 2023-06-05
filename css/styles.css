@@ -1,10 +1,52 @@
 body {
-  max-width: 320px;
+  max-width: 375px;
   margin: auto;
   background: #ddd;
+  font-family: 'Urbanist', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Rubik Dirt', cursive;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+header img {
+  position: relative;
+}
+
+header {
+  background: url(../img/blue-wall.png);
+  height: 166px;
+  padding: 40px 10px 10px 10px;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 37px;
+  color: #FFC549;
+  text-transform : uppercase;
+}
+
+nav ul {
+  padding: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+nav li {
+  width: 100px;
+  padding: 5px 10px;
+  background: #FFC549;
+  border-radius: 10px;
+  list-style: none;
+}
+
+nav a {
+  color: #222E7A;
+  text-decoration: none;
 }
