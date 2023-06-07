@@ -1,8 +1,15 @@
 body {
   max-width: 375px;
   margin: auto;
-  background: #ddd;
   font-family: 'Urbanist', sans-serif;
+}
+
+main {
+  background: url(../img/background-site.jpg);
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  max-width: 100%;
 }
 
 h1, h2 {
@@ -13,6 +20,12 @@ h1, h2 {
 h2 {
   color: #FFC549; 
   background: #0080BC;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+h3 {
+  color: #FFC549;
 }
 
 p {
