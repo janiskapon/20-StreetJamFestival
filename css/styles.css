@@ -7,6 +7,16 @@ body {
 
 h1, h2 {
   font-family: 'Rubik Dirt', cursive;
+  font-weight: 400;
+}
+
+h2 {
+  color: #FFC549; 
+  background: #0080BC;
+}
+
+p {
+  color: #FFC549;
 }
 
 img {
@@ -31,22 +41,18 @@ header h1 {
   text-transform : uppercase;
 }
 
-nav ul {
+nav {
   padding: 0;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-around;
 }
 
-nav li {
-  width: 100px;
+nav a {
   padding: 5px 10px;
   background: #FFC549;
-  border-radius: 10px;
+  border-radius: 20px;
   list-style: none;
-}
-
-nav a {
   color: #222E7A;
   text-decoration: none;
 }
