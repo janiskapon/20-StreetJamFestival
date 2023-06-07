@@ -5,12 +5,10 @@ body {
 }
 
 main {
-  background: url(../img/background-site.jpg);
-  background-position: center;
-  background-size: auto;
-  background-repeat: no-repeat;
-  max-width: 100%;
+  background-color :#222E7A;
+  padding-top: 45px;
 }
+
 
 h1, h2 {
   font-family: 'Rubik Dirt', cursive;
@@ -20,21 +18,27 @@ h1, h2 {
 h2 {
   color: #FFC549; 
   background: #0080BC;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 4px 16px 5px 20px;
+  display: inline;
+  font-size: 16px;
 }
 
-h3 {
-  color: #FFC549;
+strong {
+  font-weight: 700;
 }
 
 p {
   color: #FFC549;
+  margin: 20px 15px;
 }
 
 img {
   display: block;
   max-width: 100%;
+  margin-bottom: 45px;
+  margin-top: 40px;
 }
 
 header img {
@@ -44,28 +48,41 @@ header img {
 header {
   background: url(../img/blue-wall.png);
   height: 166px;
-  padding: 40px 10px 10px 10px;
+  padding: 40px 0px 10px 0px;
 }
 
-header h1 {
+h1 {
   text-align: center;
   font-size: 37px;
   color: #FFC549;
   text-transform : uppercase;
+  margin-bottom: 15px;
 }
 
-nav {
-  padding: 0;
+.container {
+  padding: 7px 15px 7px 15px;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
-nav a {
+.cta {
   padding: 5px 10px;
   background: #FFC549;
   border-radius: 20px;
   list-style: none;
   color: #222E7A;
   text-decoration: none;
+  font-size: 7px;
+  width: 22%;
+  text-align: center;
+}
+
+.a-contact {
+  text-decoration: none;
+  color: #FFA64D;
+}
+
+footer {
+  background-color :#222E7A;
 }
