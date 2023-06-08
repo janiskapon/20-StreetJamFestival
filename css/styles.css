@@ -66,6 +66,14 @@ h1 {
   justify-content: space-between;
 }
 
+strong {
+  color: #FF807A;
+}
+
+header strong{
+  color: #222E7A;
+}
+
 .cta {
   padding: 5px 10px;
   background: #FFC549;
@@ -81,9 +89,12 @@ h1 {
 .a-contact {
   text-decoration: none;
   color: #FFA64D;
-
 }
 
 footer {
   background-color :#222E7A;
+}
+
+.logo-footer {
+  max-width: 50%;
 }
