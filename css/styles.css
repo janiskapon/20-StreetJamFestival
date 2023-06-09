@@ -2,10 +2,13 @@ body {
   max-width: 375px;
   margin: auto;
   font-family: 'Urbanist', sans-serif;
+  background-image: url(../img/background-spray.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  
 }
 
 main {
-  background-color :#222E7A;
   padding-top: 45px;
   padding-bottom: 50px;
 }
@@ -71,7 +74,7 @@ strong {
   color: #FF807A;
 }
 
-header strong{
+header strong {
   color: #222E7A;
 }
 
@@ -92,15 +95,21 @@ header strong{
   color: #FFA64D;
 }
 
+.contact {
+  color:#FFA64D;
+  margin-left: 15px;
+}
+
 footer {
-  background-color :#222E7A;
   padding-bottom: 10px;
+  color: #FFA64D;
 }
 
 footer p {
   text-align: center;
   font-size: 10px;
   margin-top: -35px;
+  color: #FFA64D;
 }
 
 footer img {
@@ -110,4 +119,8 @@ footer img {
   position: relative;
   padding: 0 105px;
   margin-top: -20px;
+}
+
+.info-skate {
+  color: #FFA64D;
 }
